@@ -9,6 +9,7 @@
 			<img src="assets/img/stage2.jpg"/>
 			<img src="assets/img/stage3.jpg"/>
 		</div>
+		madde
 		
 	</div>
 </section>
