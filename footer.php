@@ -2,7 +2,7 @@
 			<div class="container-md">
 				<p>A project by Politecnico di Milano | Digital and Interaction Design 2022</p>
 				<p>Students: Umnah Aslam, Mojca Fortunat, Madeleine Kiær, Xiyu Li, Ruiyi Liu, Gustav Moorhouse, Jan Ostrówka, Weijian Xu</p>
-				<p>Professors: Marco Ajovalasit, Mariana Ciancia, Fabio Salice</p>
+				<p>Professors: Marco Ajovalasit, Mariana Ciancia, Fabio Salice, Andrea Masciardi</p>
 			</div>
 		</footer>
 		
