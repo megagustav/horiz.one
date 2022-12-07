@@ -1,0 +1,28 @@
+<div class="col-md-3 col-lg-2 ps-0">
+	<ul class="nav flex-column">
+		<li class="nav-item">
+			<a class="nav-link active" aria-current="page" href="#">Home</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Process</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Team</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Showcase</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">MVP</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Video</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Next Steps</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">References</a>
+		</li>
+	</ul>
+</div>
