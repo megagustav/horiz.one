@@ -10,7 +10,7 @@
 			<a class="nav-link" href="#">Team</a>
 		</li>
 		<li class="nav-item">
-			<a class="nav-link" href="#">Showcase</a>
+			<a class="nav-link" href="showcase.php">Showcase</a>
 		</li>
 		<li class="nav-item">
 			<a class="nav-link" href="#">MVP</a>
