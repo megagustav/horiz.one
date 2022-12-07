@@ -1,26 +1,26 @@
 <div class="row row-cols-4">
 	<div class="profile col">
-		<img src="assets/img/jan.jpg">
+		<img src="assets/img/umnah.jpg">
 		<span>Umnah Aslam</span>
 	</div>
 	<div class="profile col">
-		<img src="assets/img/jan.jpg">
+		<img src="assets/img/mojca.jpg">
 		<span>Mojca Fortunat</span>
 	</div>
 	<div class="profile col">
-		<img src="assets/img/jan.jpg">
+		<img src="assets/img/madde.jpg">
 		<span>Madeleine Kiær</span>
 	</div>
 	<div class="profile col">
-		<img src="assets/img/jan.jpg">
+		<img src="assets/img/xiyu.jpg">
 		<span>Xiyu Li</span>
 	</div>
 	<div class="profile col">
-		<img src="assets/img/jan.jpg">
+		<img src="assets/img/ruiyi.jpg">
 		<span>Ruiyi Liu</span>
 	</div>
 	<div class="profile col">
-		<img src="assets/img/jan.jpg">
+		<img src="assets/img/gustav.jpg">
 		<span>Gustav Moorhouse</span>
 	</div>
 	<div class="profile col">
@@ -28,7 +28,7 @@
 		<span>Jan Ostrówka</span>
 	</div>
 	<div class="profile col">
-		<img src="assets/img/jan.jpg">
+		<img src="assets/img/weijian.jpg">
 		<span>Weijian Xu</span>
 	</div>
 </div>
