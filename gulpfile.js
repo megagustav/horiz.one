@@ -31,11 +31,11 @@ async function buildAndReload() {
 async function includeHTML(){
 	return gulp.src([
 		'*.html',
-		'!header.html', // ignore
-		'!footer.html', // ignore
-		'!nav.html', // ignore
-		'!people.html', // ignore
-		'!page.html' // ignore
+		'!header.html',
+		'!footer.html',
+		'!nav.html',
+		'!people.html',
+		'!*-content.html'
 		])
 		.pipe(fileinclude({
 			prefix: '@@',

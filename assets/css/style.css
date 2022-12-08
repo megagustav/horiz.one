@@ -1,3 +1,7 @@
+body {
+  background-color: #fefcfb
+}
+
 section {
   padding-top: 8em;
 }
@@ -17,10 +21,13 @@ section {
 
 .nav-link {
   padding: 0.5em 1em;
-  background: white;
   border-radius: 0.4em;
 }
 
-.nav-link .active {
+.nav-link.active {
   background: #edf5ff;
+}
+
+.card {
+  border-color: #f3f3f3;
 }
