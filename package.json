@@ -1,0 +1,30 @@
+{
+  "name": "horiz.one",
+  "version": "1.0.0",
+  "description": "a final design studio project of 2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megagustav/horiz.one.git"
+  },
+  "keywords": [
+    "website",
+    "university"
+  ],
+  "author": "gustav moorhouse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/megagustav/horiz.one/issues"
+  },
+  "homepage": "https://github.com/megagustav/horiz.one#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-file-include": "^2.3.0"
+  },
+  "dependencies": {
+    "browser-sync": "^2.27.10"
+  }
+}
