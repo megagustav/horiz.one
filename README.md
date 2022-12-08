@@ -29,9 +29,9 @@ Add the browser-sync plugin
 npm install browser-sync
 ```
 
-Start the server to let the gulpfile build the static site in the /docs folder
+Start the server to let the gulpfile build the static site in the `/docs` folder
 ```
 gulp
 ```
 
-pushing to main will cause github pages to publish the page, deploying from the /docs folder
+pushing to `main` will cause github pages to publish the page, deploying from the `/docs` folder
