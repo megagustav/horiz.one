@@ -4,12 +4,14 @@ I'm adding a readme! This will be replaced. Bye bye!
 
 # setup
 
+We need npm, gulp, and three packages.
+
 Check for your versions.
 
 ```
 node --version
 npm --version
-npx --version
+gulp --version
 ```
 
 Install the gulp command line utility
@@ -27,9 +29,7 @@ Add the browser-sync plugin
 npm install browser-sync
 ```
 
-only edit files in the /partials folder, add assets as needed
-
-Start the server to build the static site in the /docs folder
+Start the server to let the gulpfile build the static site in the /docs folder
 ```
 gulp
 ```
