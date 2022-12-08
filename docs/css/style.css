@@ -2,8 +2,18 @@ body {
   background-color: #fefcfb
 }
 
-section {
-  padding-top: 8em;
+.page {
+  padding-top: 6em;
+  min-height: 100vh;
+}
+
+section:not(:first-of-type) {
+  padding-top: 2em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .profile {
