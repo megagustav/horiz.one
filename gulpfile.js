@@ -35,7 +35,6 @@ async function includeHTML(){
 		'!footer.html', // ignore
 		'!nav.html', // ignore
 		'!people.html', // ignore
-		'!showcase.html', // ignore
 		'!page.html' // ignore
 		])
 		.pipe(fileinclude({
