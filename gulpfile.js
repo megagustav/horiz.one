@@ -33,6 +33,10 @@ async function includeHTML(){
 		'*.html',
 		'!header.html', // ignore
 		'!footer.html' // ignore
+		'!nav.html' // ignore
+		'!people.html' // ignore
+		'!showcase.html' // ignore
+		'!page.html' // ignore
 		])
 		.pipe(fileinclude({
 			prefix: '@@',
@@ -43,7 +47,7 @@ async function includeHTML(){
 exports.includeHTML = includeHTML;
 
 exports.default = async function() {
-	// Init serve files from the build folder
+	// Init serve files from the docs folder
 	server.init({
 		server: {
 			baseDir: paths.scripts.dest
