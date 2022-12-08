@@ -6,7 +6,7 @@ const { watch, series } = require('gulp');
 const paths = {
 	scripts: {
 		src: './',
-		dest: './build/'
+		dest: './docs/'
 	}
 };
 
