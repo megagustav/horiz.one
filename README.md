@@ -27,7 +27,11 @@ Add the browser-sync plugin
 npm install browser-sync
 ```
 
-Start the server
+only edit files in the /partials folder, add assets as needed
+
+Start the server to build the static site in the /docs folder
 ```
 yarn gulp
 ```
+
+pushing to main will cause github pages to publish the page, deploying from the /docs folder
