@@ -32,10 +32,10 @@ async function includeHTML(){
 	return gulp.src([
 		'*.html',
 		'!header.html', // ignore
-		'!footer.html' // ignore
-		'!nav.html' // ignore
-		'!people.html' // ignore
-		'!showcase.html' // ignore
+		'!footer.html', // ignore
+		'!nav.html', // ignore
+		'!people.html', // ignore
+		'!showcase.html', // ignore
 		'!page.html' // ignore
 		])
 		.pipe(fileinclude({
