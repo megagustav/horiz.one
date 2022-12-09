@@ -44,6 +44,10 @@ img {
   aspect-ratio: 16 / 9;
 }
 
+.storyboard figure {
+  margin-bottom: 4em;
+}
+
 .profile {
   padding-top: 1em;
   padding-bottom: 1em;
