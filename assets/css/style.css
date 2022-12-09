@@ -38,6 +38,12 @@ img {
   height: auto;
 }
 
+.figure.video,
+.figure.video iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
 .profile {
   padding-top: 1em;
   padding-bottom: 1em;
