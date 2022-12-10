@@ -44,7 +44,7 @@ img {
   aspect-ratio: 16 / 9;
 }
 
-.storyboard figure {
+.storyboard figure:not(:last-of-type) {
   margin-bottom: 4em;
 }
 
