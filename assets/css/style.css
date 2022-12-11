@@ -80,13 +80,26 @@ header .nav-link:hover {
   font-weight: 500;
 }
 
+ul.posters {
+  padding-left: unset;
+}
+
+ul.posters li {
+  list-style: none;
+  line-height: 2;
+}
+
+li.xmark {
+  opacity: 0.6;
+}
+
 .card,
 .card-header {
   border-color: #f3f3f3;
 }
 
 section.highlight {
-  background-color: color(display-p3 0.263 0.404 0.471);
+  background-color: #224757;
   margin-top: 2rem;
   margin-left: -1rem!important;
   margin-right: -1rem!important;
@@ -97,7 +110,7 @@ section.highlight {
 section.highlight span,
 span.highlight {
   color: white;
-  background: color(display-p3 0.129 0.267 0.329);
+  background: #02070a;
 }
 
 span.highlight {
