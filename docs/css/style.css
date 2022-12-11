@@ -80,12 +80,56 @@ header .nav-link:hover {
   font-weight: 500;
 }
 
-.card {
+.card,
+.card-header {
   border-color: #f3f3f3;
+}
+
+section.highlight {
+  background-color: color(display-p3 0.263 0.404 0.471);
+  margin-top: 2rem;
+  margin-left: -1rem!important;
+  margin-right: -1rem!important;
+  padding: 1rem!important;
+  color: white;
+}
+
+section.highlight span,
+span.highlight {
+  color: white;
+  background: color(display-p3 0.129 0.267 0.329);
+}
+
+span.highlight {
+  padding: 0.4rem 0.6rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  display: inline-block;
 }
 
 footer {
   margin-top: 8em;
   background: #132740;
   color: #abacba;
+}
+
+@media (min-width: 768px) {
+  section.highlight {
+    margin-left: -1.5rem!important;
+    margin-right: -1.5rem!important; 
+    padding: 1.5rem!important;
+  }
+}
+
+@media (min-width: 992px) {
+  section.highlight {
+    margin-left: -3rem!important;
+    margin-right: -3rem!important;
+    padding: 3rem!important;
+  }
+  
+  .figure,
+  .figure-img {
+    width: 100%;
+  } 
 }
