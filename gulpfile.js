@@ -55,5 +55,5 @@ exports.default = async function() {
 	// Build and reload at the first time
 	buildAndReload();
 	// Watch task
-	watch(["docs/*.html","assets/**/*","partials/*.html"], series(buildAndReload));
+	watch(["docs/*.html","assets/**/*"], series(buildAndReload));
 };
