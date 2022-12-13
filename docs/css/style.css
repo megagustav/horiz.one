@@ -2,11 +2,6 @@ body {
   background-color: #fefcfb
 }
 
-.page {
-  padding-top: 6em;
-  min-height: 100vh;
-}
-
 section:not(:first-of-type) {
   padding-top: 2em;
 }
@@ -159,6 +154,10 @@ section.highlight.first {
   border-radius:  0.375rem;
 }
 
+.main-content section:first-child {
+  padding-top: 4rem !important;
+}
+
 .featured {
   margin-left: -1rem!important;
   margin-right: -1rem!important;
@@ -193,7 +192,29 @@ footer {
   color: #abacba;
 }
 
+.navbar {
+  --bs-navbar-padding-y: 0;
+}
+
+button.navbar-toggler {
+  margin-bottom: -4rem;
+  background-color: white;
+}
+
 @media (min-width: 768px) {
+  .main-content section:first-child {
+    padding-top: unset !important;
+  }
+  .home .main-content section:first-child {
+    padding-top: 4rem !important;
+  }
+  .navbar {
+    --bs-navbar-padding-y: 0.5rem;
+  }
+  .page {
+    padding-top: 6em;
+    min-height: 100vh;
+  }
   section.highlight {
     margin-left: -1.5rem!important;
     margin-right: -1.5rem!important; 
