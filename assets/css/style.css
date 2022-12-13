@@ -59,6 +59,7 @@ img {
   padding-bottom: 0.2em;
   height: 3em;
   width: auto;
+  filter: grayscale(0.9);
 }
 
 .nav-link {
