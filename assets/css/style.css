@@ -201,9 +201,16 @@ button.navbar-toggler {
   background-color: white;
 }
 
+.main-content.card {
+  border: none;
+}
+
 @media (min-width: 768px) {
   .main-content section:first-child {
     padding-top: unset !important;
+  }
+  .main-content.card {
+    border: var(--bs-card-border-width) solid #f3f3f3;
   }
   .home .main-content section:first-child {
     padding-top: 4rem !important;
