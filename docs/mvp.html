@@ -14,12 +14,12 @@
 
 <div class="container-md page" id="mvp">
 	<div class="row">
-		<nav class="col-md-3 col-lg-2 ps-md-0">
-	<header>
+		<nav class="col-md-3 col-lg-2 ps-md-0" id="main-nav">
+	<!-- <header>
 		<a class="nav-link" href="/">
 			<img class="logo" src="img/logo.svg" />
 		</a>
-	</header>
+	</header> -->
 	<ul class="nav sticky-md-top pt-5 flex-column">
 		<li class="nav-item">
 			<a class="nav-link" id="home" href="/">Home</a>
@@ -29,12 +29,88 @@
 		</li>
 		<li class="nav-item">
 			<a class="nav-link" id="process" href="process.html">Process</a>
+			<ul class="nav nav-pills process">
+				<li class="nav-item">
+					<a class="nav-link" href="#ref-methodology">Methodology</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#ref-literature">Literature Research</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#ref-ethnography">Digital Ethnography</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#ref-interviews">Interviews</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#ref-firsthand">First-hand experience</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#ref-insights">Overlapping insights</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#ref-valueprop">Value proposition</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#ref-brief">Brief</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#ref-concept">Concept Development</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#ref-fieldtesting">Field Testing</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#ref-benchmarking">Benchmarking</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#ref-naturalness">Naturalness</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#ref-positioning">Positioning</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#ref-meaning">Meaning</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#ref-flows">User Flows</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#ref-testing">Testing</a>
+				</li>
+			</ul>
 		</li>
 		<li class="nav-item">
 			<a class="nav-link" id="showcase" href="showcase.html">Showcase</a>
 		</li>
 		<li class="nav-item">
 			<a class="nav-link" id="mvp" href="mvp.html">MVP</a>
+			<ul class="nav nav-pills mvp">
+				<li class="nav-item">
+					<a class="nav-link" href="#ref-system">MVP System Map</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#ref-mvparchitecture">MVP Architecture</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#ref-processes">Background Processes</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#ref-realarchitecture">Real Architecture</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#ref-model">Model</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#ref-connections">Connections</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#ref-interface">Interface</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#ref-wholesystem">Whole System</a>
+				</li>
+			</ul>
 		</li>
 		<li class="nav-item">
 			<a class="nav-link" id="video" href="video.html">Video</a>
@@ -50,8 +126,8 @@
 		</li>
 	</ul>
 </nav>
-		<div class="col-md card p-3 p-md-4 p-lg-5">
-	<section>
+		<div class="col-md card p-3 p-md-4 p-lg-5" data-bs-spy="scroll" data-bs-target="#main-nav" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
+	<section id="ref-system">
 		<h3>System map (MVP)</h3>
 		<p>Horizon is an interactive system consisting of digital and physical controls for secondary infotainment system. The digital aspects contain the cluster display, the centre stack display and the HUD display. Whereas, the physical control is the slider knob.</p>
 		<figure class="figure">
@@ -64,7 +140,7 @@
 			<figcaption class="figure-caption">Fig. 5.2: Inputs and outputs</figcaption>
 		</figure>
 	</section>
-	<section>
+	<section id="ref-mvparchitecture">
 		<h3>System Architecture (MVP)</h3>
 		<p>To achieve the prototype, the team chose Protopie as a bridge to connect physical part (knob system) and digital part (screen system). For the screen system, three devices are prototyped as displays in car. For the knob system, different electronic components are programmed accordingly to the functions and interactions of the system.</p>
 		<figure class="figure">
@@ -72,7 +148,7 @@
 			<figcaption class="figure-caption">Fig. 5.3: MVP System Architecture</figcaption>
 		</figure>
 	</section>
-	<section>
+	<section id="ref-processes">
 		<h3>Technical background processes</h3>
 		<figure class="figure video">
 			<iframe src="https://www.loom.com/embed/0a829547df934b94bd59436068d1071f" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -97,7 +173,7 @@
 			<figcaption class="figure-caption">Fig. 5.8: Interaction: Rotate</figcaption>
 		</figure>
 	</section>
-	<section>
+	<section id="ref-realarchitecture">
 		<h3>System Architecture (Real Case)</h3>
 		<p>The chart below represents the actual technologies representative of an implemented solution.</p>
 		<figure class="figure">
@@ -105,7 +181,7 @@
 			<figcaption class="figure-caption">Fig. 5.9: Implemented System Architecture</figcaption>
 		</figure>
 	</section>
-	<section>
+	<section id="ref-model">
 		<h3>Appearance model</h3>
 		<p>Horizon team built basic interactions on a foam model using magnets and a rail to slide the knob on. Users are invited to interact with it to complete the given tasks like raising temperature.</p>
 		<div class="row">
@@ -123,7 +199,7 @@
 			</div>
 		</div>
 	</section>
-	<section>
+	<section id="ref-connections">
 		<h3>Technical Connections</h3>
 		<p>Horizon team first starts from simple connections: slider & rotary button. The team sets the slider into 4 different zones which represent different setting — eg. temperature, music. Then the rotary button was used for both rotation and press interaction. The team also defines how each rotation and press means inside different slider zones.</p>
 		<p>For the detect and move function, the team attached a Sharp proximity sensor and a new motor to drive knob moving towards the user’s hand in close distance. The sharp sensor was used to detect where the user hand is and the result would be used to compare with where the knob position. The knob would be driven by a motor to move slightly to best fit into the user’s palm.</p>
@@ -170,7 +246,7 @@
 			</div>
 		</div>
 	</section>
-	<section>
+	<section id="ref-interface">
 		<h3>Interface development</h3>
 		<p>Tools used: Protopie + Protopie Connect</p>
 		<figure class="figure">
@@ -186,7 +262,7 @@
 			<figcaption class="figure-caption">Fig. 5.20: Prototyping the HUD</figcaption>
 		</figure>
 	</section>
-	<section>
+	<section id="ref-wholesystem">
 		<h3>Whole system</h3>
 		<p>The whole system is composed by 4 parts : console screen , cluster screen ,HUD & sliding knob. By Protopie, we have successfully controlled all three screens by sliding/rotating/pressing the knob. The team used different devices to prototype real car screens: Pad for console screen and cluster screen, iPhone & reflection film for HUD.</p>
 		<figure class="figure">
