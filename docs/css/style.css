@@ -199,6 +199,7 @@ footer {
 button.navbar-toggler {
   margin-bottom: -4rem;
   background-color: white;
+  position: fixed;
 }
 
 .main-content.card {
