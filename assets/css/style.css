@@ -77,17 +77,6 @@ body nav ul li ul.nextsteps {
   display: none;
 }
 
-body.home nav ul li ul.home,
-body.naturalness nav ul li ul.naturalness,
-body.process nav ul li ul.process,
-body.showcase nav ul li ul.showcase,
-body.mvp nav ul li ul.mvp,
-body.video nav ul li ul.video,
-body.poster nav ul li ul.poster,
-body.nextsteps nav ul li ul.nextsteps {
-  display: block;
-}
-
 header .nav-link:hover {
   background: unset;
 }
@@ -207,6 +196,16 @@ button.navbar-toggler {
 }
 
 @media (min-width: 768px) {
+  body.home nav ul li ul.home,
+  body.naturalness nav ul li ul.naturalness,
+  body.process nav ul li ul.process,
+  body.showcase nav ul li ul.showcase,
+  body.mvp nav ul li ul.mvp,
+  body.video nav ul li ul.video,
+  body.poster nav ul li ul.poster,
+  body.nextsteps nav ul li ul.nextsteps {
+    display: block;
+  }
   .main-content section:first-child {
     padding-top: unset !important;
   }
