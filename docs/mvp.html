@@ -28,7 +28,7 @@
 			<a class="nav-link" id="naturalness" href="naturalness.html">Naturalness</a>
 		</li>
 		<li class="nav-item">
-			<a class="nav-link" id="technology" href="process.html">Process</a>
+			<a class="nav-link" id="process" href="process.html">Process</a>
 		</li>
 		<li class="nav-item">
 			<a class="nav-link" id="showcase" href="showcase.html">Showcase</a>
@@ -52,6 +52,81 @@
 </nav>
 		<div class="col-md card p-3 p-md-4 p-lg-5">
 	<section>
+		<h3>System map (MVP)</h3>
+		<p>Horizon is an interactive system consisting of digital and physical controls for secondary infotainment system. The digital aspects contain the cluster display, the centre stack display and the HUD display. Whereas, the physical control is the slider knob.</p>
+		<figure class="figure">
+			<img src="img/system_map.svg" class="figure-img img-fluid" alt="System Map">
+			<figcaption class="figure-caption">Fig. 5.1: System map</figcaption>
+		</figure>
+		<p>The digital and physical controls of the systems are used for input and output in various contexts. Cluster and HUD are mainly for contextual output. Moreover, the touchscreen and slider knob are for more detailed feedbacks including selection descriptions, haptic and audio feedback.</p>
+		<figure class="figure">
+			<img src="img/system_map_2.svg" class="figure-img img-fluid" alt="Inputs and outputs">
+			<figcaption class="figure-caption">Fig. 5.2: Inputs and outputs</figcaption>
+		</figure>
+	</section>
+	<section>
+		<h3>System Architecture (MVP)</h3>
+		<p>To achieve the prototype, the team chose Protopie as a bridge to connect physical part (knob system) and digital part (screen system). For the screen system, three devices are prototyped as displays in car. For the knob system, different electronic components are programmed accordingly to the functions and interactions of the system.</p>
+		<figure class="figure">
+			<img src="img/system_architecture.svg" class="figure-img img-fluid" alt="System Architecture">
+			<figcaption class="figure-caption">Fig. 5.3: MVP System Architecture</figcaption>
+		</figure>
+	</section>
+	<section>
+		<h3>Technical background processes</h3>
+		<figure class="figure video">
+			<iframe src="https://www.loom.com/embed/0a829547df934b94bd59436068d1071f" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			<figcaption class="figure-caption">Fig. 5.4: Video showcasing the slider</figcaption>
+		</figure>
+	</section>
+	<section>
+		<figure class="figure">
+			<img src="img/ix_grab.svg" class="figure-img img-fluid" alt="Interaction: Grab">
+			<figcaption class="figure-caption">Fig. 5.5: Interaction: Grab</figcaption>
+		</figure>
+		<figure class="figure">
+			<img src="img/ix_press.svg" class="figure-img img-fluid" alt="Interaction: Press">
+			<figcaption class="figure-caption">Fig. 5.6: Interaction: Press</figcaption>
+		</figure>
+		<figure class="figure">
+			<img src="img/ix_slide.svg" class="figure-img img-fluid" alt="Interaction: Slide">
+			<figcaption class="figure-caption">Fig. 5.7: Interaction: Slide</figcaption>
+		</figure>
+		<figure class="figure">
+			<img src="img/ix_rotate.svg" class="figure-img img-fluid" alt="Interaction: Rotate">
+			<figcaption class="figure-caption">Fig. 5.8: Interaction: Rotate</figcaption>
+		</figure>
+	</section>
+	<section>
+		<h3>System Architecture (Real Case)</h3>
+		<p>The chart below represents the actual technologies representative of an implemented solution.</p>
+		<figure class="figure">
+			<img src="img/real_architecture.svg" class="figure-img img-fluid" alt="System Architecture">
+			<figcaption class="figure-caption">Fig. 5.9: Implemented System Architecture</figcaption>
+		</figure>
+	</section>
+	<section>
+		<h3>Appearance model</h3>
+		<p>Horizon team built basic interactions on a foam model using magnets and a rail to slide the knob on. Users are invited to interact with it to complete the given tasks like raising temperature.</p>
+		<div class="row">
+			<div class="col-md-6">
+				<figure class="figure">
+					<img src="img/image_13.jpg" class="figure-img img-fluid" alt="Foam Knob">
+					<figcaption class="figure-caption">Fig. 5.10: Foam knob</figcaption>
+				</figure>
+			</div>
+			<div class="col-md-6">
+				<figure class="figure">
+					<img src="img/image_14.jpg" class="figure-img img-fluid" alt="Sliding the knob">
+					<figcaption class="figure-caption">Fig. 5.11: Sliding the knob</figcaption>
+				</figure>
+			</div>
+		</div>
+	</section>
+	<section>
+		<h3>Technical Connections</h3>
+		<p>Horizon team first starts from simple connections: slider & rotary button. The team sets the slider into 4 different zones which represent different setting — eg. temperature, music. Then the rotary button was used for both rotation and press interaction. The team also defines how each rotation and press means inside different slider zones.</p>
+		<p>For the detect and move function, the team attached a Sharp proximity sensor and a new motor to drive knob moving towards the user’s hand in close distance. The sharp sensor was used to detect where the user hand is and the result would be used to compare with where the knob position. The knob would be driven by a motor to move slightly to best fit into the user’s palm.</p>
 	</section>
 </div>
 	</div>
