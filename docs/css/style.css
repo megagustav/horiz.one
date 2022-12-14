@@ -215,6 +215,10 @@ button.navbar-toggler {
   .nav-container {
     box-shadow: unset;
   }
+  nav.navbar {
+    position: sticky;
+    top: 1rem;
+  }
   .main-content section:first-child {
     padding-top: unset !important;
   }
